@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Профессиональная клининговая компания в Москве. Уборка квартир, офисов, мойка окон, химчистка мебели. Выезд в день обращения. Закажите уборку прямо сейчас!">
+  <meta name="keywords" content="уборка квартир Москва, клининг Москва, клининговая компания, уборка офисов, мойка окон, химчистка мебели">
+  <meta name="author" content="Сияние дома
+  <title>Клининговая компания в Москве — Сияние дома </title>
+  <link rel="canonical" href="https://klining-krasivo.ru" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    a.cta-button {
+  text-decoration: none;
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Manrope', sans-serif;
+    }
+
+    body {
+      background: #f5faff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: #0077cc;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: 600;
+    }
+
+    .cta-button {
+      background-color: #00aaff;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #008ed6;
+    }
+
+    .hero {
+      background-image: linear-gradient(rgba(0, 85, 145, 0.5), rgba(0, 85, 145, 0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2.7rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .services, .prices, .why-us, .calculator, footer {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #0077cc;
+      margin-bottom: 2rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .card i {
+      font-size: 2rem;
+      color: #00aaff;
+      margin-bottom: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    table td, table th {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .calculator label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .calculator input, .calculator select {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .calculator button {
+      background: #00aaff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #0077cc;
+      color: #fff;
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+    }
+
+    footer a {
+      color: #fff;
+      margin: 0 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      nav {
+        justify-content: center;
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Сияние дома</div>
+    <nav>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#why-us">О нас</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#calculator" class="cta-button">Заказать уборку</a>
+  </header>
+
+  <section class="hero">
+    <h1>Профессиональная уборка квартир и офисов в Москве</h1>
+    <p>Работаем 24/7. Гарантия качества. Выезд в день обращения.</p>
+    <a href="#calculator" class="cta-button">Оставить заявку</a>
+  </section>
+
+  <section id="services" class="services">
+    <h2 class="section-title">Наши услуги</h2>
+    <div class="card-grid">
+      <div class="card"><i class="fas fa-home"></i> Уборка квартир</div>
+      <div class="card"><i class="fas fa-broom"></i> Генеральная уборка</div>
+      <div class="card"><i class="fas fa-paint-roller"></i> Уборка после ремонта</div>
+      <div class="card"><i class="fas fa-building"></i> Уборка офисов</div>
+      <div class="card"><i class="fas fa-window-restore"></i> Мойка окон</div>
+      <div class="card"><i class="fas fa-couch"></i> Химчистка мебели</div>
+    </div>
+  </section>
+
+  <section id="prices" class="prices">
+    <h2 class="section-title">Прайс-лист</h2>
+    <table>
+      <tr><th>Услуга</th><th>Цена</th></tr>
+      <tr><td>Уборка квартиры</td><td>от 2500 ₽</td></tr>
+      <tr><td>Генеральная уборка</td><td>от 5000 ₽</td></tr>
+      <tr><td>Уборка после ремонта</td><td>от 6000 ₽</td></tr>
+      <tr><td>Мойка окон</td><td>от 150 ₽/м²</td></tr>
+    </table>
+  </section>
+
+  <section id="why-us" class="why-us">
+    <h2 class="section-title">Почему выбирают нас</h2>
+    <div class="card-grid">
+      <div class="card"><i class="fas fa-user-check"></i> Опытные клинеры</div>
+      <div class="card"><i class="fas fa-file-contract"></i> Работаем по договору</div>
+      <div class="card"><i class="fas fa-clock"></i> Приезжаем вовремя</div>
+      <div class="card"><i class="fas fa-leaf"></i> Безопасные средства</div>
+    </div>
+  </section>
+
+  <section id="calculator" class="calculator">
+    <h2 class="section-title">Калькулятор уборки</h2>
+    
+    <label>Площадь помещения (м²)</label>
+    <input type="number" id="area" required />
+  
+    <label>Тип уборки</label>
+    <select id="type">
+      <option value="120">Обычная уборка — 120 ₽/м²</option>
+      <option value="140">Генеральная — 140 ₽/м²</option>
+      <option value="180">После ремонта — 180 ₽/м²</option>
+    </select>
+  
+    <label>Номер телефона</label>
+    <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required />
+  
+    <button onclick="calculateAndSend()">Рассчитать и отправить</button>
+    <p id="result"></p>
+  </section>
+  
+  <script>
+    function calculateAndSend() {
+      const area = parseFloat(document.getElementById('area').value) || 0;
+      const rate = parseFloat(document.getElementById('type').value);
+      const phone = document.getElementById('phone').value.trim();
+      
+      if (!phone) {
+        alert("Пожалуйста, введите номер телефона.");
+        return;
+      }
+  
+      let total = area * rate;
+      if (total < 8000) total = 8000;
+  
+      document.getElementById('result').textContent = `Примерная стоимость: ${total} ₽`;
+  
+      // Отправка данных в Google Таблицу
+      fetch('https://script.google.com/macros/s/AKfycbzaqFLTGFoDfW_4iKjQwkRzYP7veyc56Uidwjt7ilf7bHFUnmMb6jyZE62QK---ZRhd/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          area: area,
+          type: rate,
+          phone: phone,
+          total: total
+        })
+      }).then(() => {
+        alert('Заявка отправлена!');
+      }).catch(() => {
+        alert('Ошибка при отправке данных.');
+      });
+    }
+  </script>
+  
+
+  <footer id="contacts">
+    <p>Контакты: +7 (999) 123-45-67</p>
+    <p>
+      <a href="#"><i class="fab fa-telegram"></i> Telegram</a>
+      <a href="#"><i class="fab fa-vk"></i> VK</a>
+    </p>
+    <p>Адрес: Москва, Россия</p>
+    <p>&copy; 2025 Klining Krasivo</p>
+  </footer>
+
+  <script>
+    function calculateTotal() {
+      const area = parseFloat(document.getElementById('area').value) || 0;
+      const type = parseFloat(document.getElementById('type').value);
+      const windows = parseFloat(document.getElementById('windows').value) || 0;
+      const total = type + windows * 150;
+      document.getElementById('result').textContent = `Примерная стоимость: ${total} ₽`;
+    }
+  </script>
+</body>
+</html>
